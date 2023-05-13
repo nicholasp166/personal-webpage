@@ -1,0 +1,92 @@
+.navbar-brand{
+    margin-left: 10px; margin-right: 10px;
+    }
+
+#body-image{
+    height: 85%;
+    width: 85%;
+    z-index: 0;
+    border-radius: 30px;
+}
+
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parallax{
+  min-height: 1000px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacers {
+  height:65px;
+  background-color:rgb(15, 27, 53);
+
+}
+
+.round-border{
+  border-radius: 25px;
+}
+
+.skills-div{
+  font-size: 36px;
+}
+
+.intro-div{
+  position:absolute;
+  height: 85%;
+}
+
+.fade-in-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+}
+
+.fade-text{
+  opacity: 0;
+}
+
+.intro-text {
+  font-size: 30px;
+}
+
+.list-text{
+  font-size: 45px;
+}
+
+.fade-in{
+  animation: fadeIn 20s;
+}
+
+.box h1::after{
+  content: "";
+  width: 5px;
+  height: 75px;
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+
+.img-thumbnail{
+  min-width: 400px;
+  min-height: 200px;
+}
+
+.project-text{
+  font-size: 25px;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes cursor-blink {
+  0% { opacity: 0; }
+
+}
